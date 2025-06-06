@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuminaCity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'lc-blue-dark': '#1A2A4C',
+            'lc-teal-dark': '#00838F',
+            'lc-teal-medium': '#26A69A',
+            'lc-teal-light': '#4DD0E1',
+            'lc-yellow-medium': '#CDDC39',
+            'lc-yellow-light': '#F4FF81',
+
+            primary: '#26A69A',
+            'primary-light': '#4DD0E1',
+            'primary-dark': '#00838F',
+
+            secondary: '#CDDC39',
+            'secondary-light': '#F4FF81',
+            
+            'neutral-dark': '#1A2A4C',
+            'neutral-medium': '#94A3B8',
+            'neutral-light': '#E0E7FF',
+            'neutral-very-light': '#F0F4F8',
+
+            white: '#FFFFFF',
+            black: '#000000',
+
+            'base-100': '#1A2A4C',
+            'base-content': '#E0E7FF',
+          },
+          fontFamily: {
+            sans: ['Manrope', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Manrope', sans-serif;
+      background-color: #1A2A4C;
+      color: #E0E7FF;
+    }
+    
+    .section-on-light-bg {
+      background-color: #F0F4F8;
+      color: #1A2A4C;
+    }
+    .section-on-light-bg h1,
+    .section-on-light-bg h2,
+    .section-on-light-bg h3,
+    .section-on-light-bg h4,
+    .section-on-light-bg .section-title-heading {
+      color: #1A2A4C !important;
+    }
+    .section-on-light-bg p,
+    .section-on-light-bg .text-neutral-medium {
+      color: #1A2A4C !important;
+      opacity: 0.85;
+    }
+    .section-on-light-bg .text-neutral-dark {
+      color: #1A2A4C !important;
+    }
+
+    .section-on-light-bg .card-content h3 {
+      color: #1A2A4C !important;
+    }
+    .section-on-light-bg .card-content p {
+      color: #1A2A4C !important;
+      opacity: 0.8;
+    }
+    .section-on-light-bg .card-content .text-neutral-medium {
+      color: #1A2A4C !important;
+      opacity: 0.8;
+    }
+    .section-on-light-bg .text-primary { color: #26A69A !important; }
+    .section-on-light-bg .text-primary-light { color: #4DD0E1 !important; }
+    .section-on-light-bg .text-secondary { color: #CDDC39 !important; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
