@@ -76,12 +76,13 @@ export const SOLUTION_ITEMS: SolutionItem[] = [
 export const BLOG_POST_ITEMS: BlogPostItem[] = [
   {
     id: '1',
-    imageUrl: 'https://picsum.photos/seed/blog1/600/400',
-    category: 'AI in Government',
-    title: 'The Future of AI in Local Governance',
-    excerpt: 'Exploring how artificial intelligence is reshaping public administration and service delivery.',
-    author: 'Dr. Jane Doe',
-    date: 'October 26, 2023',
+    imageUrl: 'https://miro.medium.com/v2/resize:fit:1388/format:webp/1*1mr-h_Ma38FNb3feDqBfGw.png',
+    category: 'Data Science',
+    title: 'Spatial Analysis of Pedestrian Traffic Fatalities',
+    excerpt: 'AI-driven spatial analysis correlating lighting, signage, and traffic control systems to reduce pedestrian fatalitie.',
+    author: 'Arashdeep Mehroke',
+    date: 'July 18, 2024',
+    url: 'https://medium.com/@arashdeepsingh123/spatial-analysis-of-pedestrian-traffic-fatalities-in-stockton-ede386e68ca7',
   },
   {
     id: '2',

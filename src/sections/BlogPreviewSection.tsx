@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SectionProps, BlogPostItem } from '../types';
 import { BLOG_POST_ITEMS } from '../constants';
@@ -8,7 +7,7 @@ import Card from '../components/ui/Card';
 import Button from '../components/ui/Button';
 import { ChevronRightIcon } from '../components/icons/ChevronIcons';
 
-const BlogPostCard: React.FC<BlogPostItem> = ({ imageUrl, category, title, excerpt, author, date }) => (
+const BlogPostCard: React.FC<BlogPostItem> = ({ imageUrl, category, title, excerpt, author, date, url }) => (
   <Card className="flex flex-col h-full bg-white"> {/* Explicitly white card bg */}
     <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
     <div className="p-6 flex flex-col flex-grow card-content"> {/* Wrapper for text content styling */}
@@ -16,7 +15,7 @@ const BlogPostCard: React.FC<BlogPostItem> = ({ imageUrl, category, title, excer
       <h3 className="text-lg font-semibold text-neutral-dark mb-2 flex-grow">{title}</h3>
       <p className="text-neutral-medium text-sm leading-relaxed mb-3 line-clamp-3">{excerpt}</p>
       <p className="text-xs text-neutral-medium mb-4">By {author} on {date}</p>
-      <Button href="#" variant="outline" size="sm" className="mt-auto self-start group text-primary border-primary hover:text-white hover:bg-primary">
+      <Button href={url || "#"} variant="outline" size="sm" className="mt-auto self-start group text-primary border-primary hover:text-white hover:bg-primary">
         Read More <ChevronRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
       </Button>
     </div>
