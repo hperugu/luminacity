@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { NAV_ITEMS } from '../../constants';
 import { NavItem } from '../../types';
@@ -36,22 +35,16 @@ const Navbar: React.FC = () => {
     }
   };
   
-  const logoColor = isSticky ? 'text-white' : 'text-white'; // Logo text part is white on both states
   const navLinkColor = isSticky ? 'text-neutral-light hover:bg-primary-light hover:text-white' : 'text-neutral-light hover:text-primary-light';
-  const mobileMenuButtonColor = isSticky ? 'text-neutral-light hover:bg-primary-light' : 'text-neutral-light hover:bg-neutral-dark/50'; // Ensuring contrast for hamburger
+  const mobileMenuButtonColor = isSticky ? 'text-neutral-light hover:bg-primary-light' : 'text-neutral-light hover:bg-neutral-dark/50';
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isSticky ? 'bg-primary shadow-lg py-4' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            {/* The SVG logo itself has hardcoded colors for shapes. `logoColor` affects the <text> "LUMINA" if it were to use `currentColor`.
-                However, our new SVG logo directly sets fill for "LUMINA" to white and "CITY" to yellow.
-                The className here can be used if any part of the SVG relies on `currentColor`.
-                For the new logo, it's mainly for sizing.
-             */}
-            <a href="#hero" className="font-bold text-2xl">
-              <LuminaCityLogo className={`h-10 md:h-12 w-auto ${logoColor}`} />
+            <a href="#hero" className="block">
+              <LuminaCityLogo className="h-10 md:h-12 w-auto" />
             </a>
           </div>
           <div className="hidden md:block">
