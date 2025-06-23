@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export interface NavItem {
@@ -28,6 +27,7 @@ export interface BlogPostItem {
   excerpt: string;
   author: string;
   date: string;
+  url?: string;
 }
 
 export interface SectionProps {
