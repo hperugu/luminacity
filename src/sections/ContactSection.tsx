@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { SectionProps } from '../types';
 import SectionContainer from '../components/ui/SectionContainer';
@@ -106,7 +105,7 @@ const ContactSection: React.FC<SectionProps> = ({ id }) => {
             <LocationMarkerIcon className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
             <div>
               <h4 className="text-lg font-semibold text-neutral-dark">Our Office</h4>
-              <p className="text-neutral-medium">123 GovTech Avenue, Suite 400<br />Innovation City, ST 54321</p>
+              <p className="text-neutral-medium">12851 Tower Beach Way<br />Rancho Cordova, CA 95742</p>
             </div>
           </div>
           <div className="flex items-start space-x-4">

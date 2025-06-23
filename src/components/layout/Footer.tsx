@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { LinkedinIcon, TwitterIcon, MailIcon } from '../icons/SocialIcons'; 
 
@@ -39,7 +38,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
              <p className="mt-4 text-sm text-neutral-light opacity-80">
-              12858 Tower Beach Way<br />
+              12851 Tower Beach Way<br />
               Rancho Cordova, CA 95742
             </p>
           </div>
