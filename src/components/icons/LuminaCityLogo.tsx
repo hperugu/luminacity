@@ -1,12 +1,15 @@
 import React from 'react';
 
-const LuminaCityLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
-  // Use an img element instead of SVG wrapper since we have an actual SVG file
+interface LogoProps {
+  className?: string;
+}
+
+const LuminaCityLogo: React.FC<LogoProps> = ({ className }) => {
   return (
     <img 
       src="/luminacity.svg" 
       alt="LuminaCity Logo" 
-      className={props.className}
+      className={className}
       style={{ 
         height: 'auto', 
         maxHeight: '100%',
