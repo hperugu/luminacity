@@ -24,8 +24,12 @@ const BlogPostCard: React.FC<BlogPostItem> = ({ imageUrl, category, title, excer
 
 const BlogPreviewSection: React.FC<SectionProps> = ({ id }) => {
   return (
-    <SectionContainer id={id} className="section-on-light-bg"> {/* Updated background */}
-      <SectionTitle title="Latest Insights & News" subtitle="From Our Blog" className="section-title-heading"/>
+    <SectionContainer id={id} className="bg-neutral-dark">
+      <SectionTitle 
+        title="Latest Insights & News" 
+        subtitle="From Our Blog" 
+        className="text-white"
+      />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {BLOG_POST_ITEMS.map((post) => (
           <BlogPostCard key={post.id} {...post} />
