@@ -20,8 +20,12 @@ const ExpertiseCard: React.FC<ServiceItem> = ({ icon, title, description }) => (
 
 const ExpertiseSection: React.FC<SectionProps> = ({ id }) => {
   return (
-    <SectionContainer id={id} className="section-on-light-bg">
-      <SectionTitle title="Our Core Expertise" subtitle="Empowering Governments with Technology" className="section-title-heading" />
+    <SectionContainer id={id} className="bg-neutral-dark">
+      <SectionTitle 
+        title="Our Core Expertise" 
+        subtitle="Empowering Governments with Technology" 
+        className="text-white"
+      />
       <div className="grid md:grid-cols-3 gap-8">
         {EXPERTISE_ITEMS.map((item) => (
           <ExpertiseCard key={item.title} {...item} />
