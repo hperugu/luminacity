@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { SectionProps } from '../types';
 import SectionContainer from '../components/ui/SectionContainer';
@@ -51,10 +50,8 @@ const ContactSection: React.FC<SectionProps> = ({ id }) => {
             onSubmit={handleSubmit} 
             className="space-y-6"
           >
-            {/* Hidden field for Netlify */}
             <input type="hidden" name="form-name" value="contact" />
             
-            {/* Honeypot field for spam protection */}
             <div style={{ display: 'none' }}>
               <label>
                 Don't fill this out if you're human: <input name="bot-field" />
