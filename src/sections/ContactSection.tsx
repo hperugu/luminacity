@@ -36,14 +36,13 @@ const ContactSection: React.FC<SectionProps> = ({ id }) => {
         className="text-neutral-dark"
       />
       <div className="grid md:grid-cols-2 gap-16">
-        <div className="bg-white p-8 rounded-xl shadow-xl"> {/* Form card remains white */}
+        <div className="bg-white p-8 rounded-xl shadow-xl">
           <h3 className="text-2xl font-semibold text-neutral-dark mb-6">Send us a message</h3>
           {isSubmitted && (
-            <div className="mb-4 p-3 rounded-md bg-primary-light/20 text-primary-dark text-sm"> {/* Success message uses primary theme colors */}
+            <div className="mb-4 p-3 rounded-md bg-primary-light/20 text-primary-dark text-sm">
               Thank you for your message! We'll get back to you soon.
             </div>
           )}
-          <form onSubmit={handleSubmit} className="space-y-6">
           <form 
             name="contact" 
             method="POST" 
