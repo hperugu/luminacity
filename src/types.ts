@@ -17,6 +17,7 @@ export interface SolutionItem {
   title: string;
   description: string;
   tags: string[];
+  detailedContent?: string;
 }
 
 export interface BlogPostItem {
