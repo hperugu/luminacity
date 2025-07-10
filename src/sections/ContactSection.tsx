@@ -110,14 +110,14 @@ const ContactSection: React.FC<SectionProps> = ({ id }) => {
             <LocationMarkerIcon className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
             <div>
               <h4 className="text-lg font-semibold text-neutral-dark">Our Office</h4>
-              <p className="text-neutral-medium">123 GovTech Avenue, Suite 400<br />Innovation City, ST 54321</p>
+              <p className="text-neutral-medium">12858 Tower Beach Way<br />Rancho Cordova, CA 95742</p>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <ContactMailIcon className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
             <div>
               <h4 className="text-lg font-semibold text-neutral-dark">Email Us</h4>
-              <a href="mailto:info@luminacity.net" className="text-neutral-medium hover:text-primary transition-colors">info@luminacity.net</a>
+              <a href="mailto:contact@luminacity.us" className="text-neutral-medium hover:text-primary transition-colors">contact@luminacity.us</a>
             </div>
           </div>
            <div className="flex items-start space-x-4">
