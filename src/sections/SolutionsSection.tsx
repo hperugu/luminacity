@@ -31,8 +31,12 @@ const SolutionCard: React.FC<SolutionItem> = ({ imageUrl, title, description, ta
 
 const SolutionsSection: React.FC<SectionProps> = ({ id }) => {
   return (
-    <SectionContainer id={id} className="section-on-light-bg" hasPattern>
-      <SectionTitle title="Tailored Solutions for Local Government" subtitle="Practical Applications" className="section-title-heading"/>
+    <SectionContainer id={id} className="bg-neutral-very-light" hasPattern>
+      <SectionTitle 
+        title="Tailored Solutions for Local Government" 
+        subtitle="Practical Applications" 
+        className="text-neutral-dark"
+      />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {SOLUTION_ITEMS.map((item) => (
           <SolutionCard key={item.title} {...item} />
