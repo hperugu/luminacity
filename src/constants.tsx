@@ -46,9 +46,9 @@ export const SOLUTION_ITEMS: SolutionItem[] = [
   },
   {
     imageUrl: 'https://picsum.photos/seed/govsolution2/600/400',
-    title: 'Enhanced Public Safety',
-    description: 'Predictive policing models and real-time data analysis to improve emergency response and community safety.',
-    tags: ['Security', 'Data Analysis', 'AI'],
+    title: 'AI-Powered Public Safety',
+    description: 'Artificial Intelligence (AI) and predictive analytics are transforming urban safety, moving cities from reactive responses to proactive prevention. By analyzing vast datasets, these technologies help anticipate and mitigate risks in traffic management, public safety, and emergency response. From forecasting accident hotspots to optimizing patrol routes and predicting crime patterns, AI empowers cities to create safer, more efficient environments for all residents.',
+    tags: ['Predictive Analytics', 'Traffic Safety', 'Emergency Response', 'Crime Prevention'],
   },
   {
     imageUrl: 'https://picsum.photos/seed/govsolution3/600/400',
