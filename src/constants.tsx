@@ -104,15 +104,6 @@ export const BLOG_POST_ITEMS: BlogPostItem[] = [
     date: 'February 20, 2024',
     url: 'https://medium.com/@arashdeepsingh123/addresses-anonymization-using-shp-files-fe76947cb908',
   },
-  {
-    id: '5',
-    imageUrl: 'https://picsum.photos/seed/blog3/600/400',
-    category: 'GenLLM',
-    title: 'Transforming Public Communication with GenLLMs',
-    excerpt: 'How Generative Large Language Models are enhancing citizen interaction and information dissemination.',
-    author: 'Alice Brown',
-    date: 'October 15, 2023',
-  },
   // Example of a new blog post structure:
   // {
   //   id: '4',
