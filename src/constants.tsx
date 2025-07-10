@@ -95,7 +95,17 @@ export const BLOG_POST_ITEMS: BlogPostItem[] = [
     url: 'https://medium.com/@arashdeepsingh123/spatial-analysis-of-illegal-dumping-hotspots-2020-2022-189b440f58ac',
   },
   {
-    id: '3',
+    id: '4',
+    imageUrl: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Data Processing',
+    title: 'Addresses Anonymization Using SHP Files',
+    excerpt: 'Advanced techniques for protecting citizen privacy through geographic data anonymization while maintaining analytical value.',
+    author: 'Arashdeep Mehroke',
+    date: 'February 20, 2024',
+    url: 'https://medium.com/@arashdeepsingh123/addresses-anonymization-using-shp-files-fe76947cb908',
+  },
+  {
+    id: '5',
     imageUrl: 'https://picsum.photos/seed/blog3/600/400',
     category: 'GenLLM',
     title: 'Transforming Public Communication with GenLLMs',
