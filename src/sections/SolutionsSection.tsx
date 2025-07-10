@@ -62,9 +62,22 @@ const SolutionsSection: React.FC<SectionProps> = ({ id }) => {
         ))}
       </div>
       <div className="text-center mt-12">
-        <Button href="#contact" variant="primary" size="lg">
-          Discuss Your Project
-        </Button>
+        <div className="bg-white rounded-xl p-8 shadow-xl max-w-4xl mx-auto">
+          <h3 className="text-2xl font-bold text-neutral-dark mb-4">
+            💰 Ready to Fund Your Vision?
+          </h3>
+          <p className="text-neutral-medium mb-6 leading-relaxed">
+            Every solution above can be funded through targeted grants. We don't just build—we help you find the money to make it happen. From federal technology grants to state innovation funds, we know where to look and how to win.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button href="#contact" variant="primary" size="lg">
+              Discuss Your Project & Funding
+            </Button>
+            <Button href="#contact" variant="outline" size="lg" className="text-primary border-primary hover:text-white hover:bg-primary">
+              Explore Grant Opportunities
+            </Button>
+          </div>
+        </div>
       </div>
     </SectionContainer>
     

@@ -114,4 +114,13 @@ export const BLOG_POST_ITEMS: BlogPostItem[] = [
   //   author: 'LuminaCity Team',
   //   date: 'November 10, 2023', // Replace with current date
   // },
+  {
+    id: '5',
+    imageUrl: 'https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Grant Strategy',
+    title: 'Funding Your Smart City Vision: A Grant Identification Guide',
+    excerpt: 'Navigate the complex landscape of federal, state, and private grants to turn your AI and data analytics projects from concepts into funded realities.',
+    author: 'LuminaCity Team',
+    date: 'January 15, 2025',
+  },
 ];

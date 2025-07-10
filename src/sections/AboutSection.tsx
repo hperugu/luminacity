@@ -22,6 +22,15 @@ const AboutSection: React.FC<SectionProps> = ({ id }) => {
           <p className="text-lg leading-relaxed text-neutral-dark">
             At LuminaCity, we are passionate about harnessing the power of cutting-edge technology to address the unique challenges faced by local governments. Our team of experts in data science, artificial intelligence, and public administration collaborates closely with municipalities to develop tailored solutions that drive meaningful impact.
           </p>
+          <div className="bg-secondary/10 border-l-4 border-secondary p-6 rounded-r-lg my-6">
+            <h4 className="font-semibold text-neutral-dark mb-2 flex items-center">
+              <span className="bg-secondary text-neutral-dark px-2 py-1 rounded text-sm font-bold mr-3">UNIQUE</span>
+              Grant Identification & Funding Strategy
+            </h4>
+            <p className="text-neutral-dark">
+              Beyond implementation, we help cities identify and secure the right grants to fund their AI and data analytics initiatives. Our expertise in both technology and grant landscapes ensures your projects are not just innovative, but financially viable.
+            </p>
+          </div>
           <p className="text-lg leading-relaxed text-neutral-dark">
             We believe in a future where public services are more efficient, data-driven, and citizen-centric. Our commitment is to provide innovative tools and strategies that empower local authorities to better serve their communities.
           </p>

@@ -12,10 +12,10 @@ const HeroSection: React.FC<SectionProps> = ({ id }) => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold !leading-tight mb-6 text-white">
-            Transforming Local Government with Intelligent Solutions
+            Transforming Local Government with Intelligent Solutions & Grant Funding
           </h1>
           <p className="text-lg md:text-xl text-neutral-light opacity-90 mb-10">
-            Leveraging AI, Data Analytics, and GenLLM to build smarter, more responsive, and efficient public services for your community.
+            Leveraging AI, Data Analytics, and GenLLM to build smarter, more responsive, and efficient public services for your community. Plus, we help you secure the grants to fund it all.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button href="#solutions" variant="secondary" size="lg">
