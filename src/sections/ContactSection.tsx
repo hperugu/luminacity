@@ -44,6 +44,24 @@ const ContactSection: React.FC<SectionProps> = ({ id }) => {
             </div>
           )}
           <form onSubmit={handleSubmit} className="space-y-6">
+          <form 
+            name="contact" 
+            method="POST" 
+            data-netlify="true" 
+            data-netlify-honeypot="bot-field"
+            onSubmit={handleSubmit} 
+            className="space-y-6"
+          >
+            {/* Hidden field for Netlify */}
+            <input type="hidden" name="form-name" value="contact" />
+            
+            {/* Honeypot field for spam protection */}
+            <div style={{ display: 'none' }}>
+              <label>
+                Don't fill this out if you're human: <input name="bot-field" />
+              </label>
+            </div>
+            
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-neutral-dark">Full Name</label>
               <input
