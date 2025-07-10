@@ -86,12 +86,13 @@ export const BLOG_POST_ITEMS: BlogPostItem[] = [
   },
   {
     id: '2',
-    imageUrl: 'https://picsum.photos/seed/blog2/600/400',
+    imageUrl: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8kQZ9QZ8QZ8QZ8QZ8QZ8QA.png',
     category: 'Data Analytics',
-    title: 'Leveraging Big Data for Urban Development',
-    excerpt: 'Insights into how data analytics can drive sustainable and efficient urban growth.',
-    author: 'John Smith',
-    date: 'October 20, 2023',
+    title: 'Spatial Analysis of Illegal Dumping Hotspots 2020-2022',
+    excerpt: 'Comprehensive spatial analysis identifying patterns and hotspots of illegal dumping activities to support municipal enforcement strategies.',
+    author: 'Arashdeep Mehroke',
+    date: 'March 15, 2024',
+    url: 'https://medium.com/@arashdeepsingh123/spatial-analysis-of-illegal-dumping-hotspots-2020-2022-189b440f58ac',
   },
   {
     id: '3',
