@@ -86,7 +86,7 @@ export const BLOG_POST_ITEMS: BlogPostItem[] = [
   },
   {
     id: '2',
-    imageUrl: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8kQZ9QZ8QZ8QZ8QZ8QZ8QA.png',
+    imageUrl: 'https://images.pexels.com/photos/2827392/pexels-photo-2827392.jpeg?auto=compress&cs=tinysrgb&w=600',
     category: 'Data Analytics',
     title: 'Spatial Analysis of Illegal Dumping Hotspots 2020-2022',
     excerpt: 'Comprehensive spatial analysis identifying patterns and hotspots of illegal dumping activities to support municipal enforcement strategies.',
