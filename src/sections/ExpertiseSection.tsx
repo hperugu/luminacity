@@ -31,14 +31,6 @@ const ExpertiseSection: React.FC<SectionProps> = ({ id }) => {
           <ExpertiseCard key={item.title} {...item} />
         ))}
       </div>
-      <div className="mt-12 bg-secondary/10 border border-secondary/30 rounded-xl p-8 text-center">
-        <h3 className="text-2xl font-bold text-white mb-4">
-          🎯 Our Unique Advantage: End-to-End Grant Support
-        </h3>
-        <p className="text-neutral-light text-lg leading-relaxed max-w-4xl mx-auto">
-          Unlike other consultants who only focus on implementation, we guide you through the entire journey—from identifying the perfect grants for your specific needs to developing winning proposals and ensuring successful project delivery. We turn innovative ideas into funded realities.
-        </p>
-      </div>
     </SectionContainer>
   );
 };

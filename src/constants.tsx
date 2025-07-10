@@ -37,8 +37,8 @@ export const EXPERTISE_ITEMS: ServiceItem[] = [
   },
 ];
 
-export const SOLUTION_ITEMS: SolutionItem[] = [
-  {
+    title: 'End-to-End Grant Support',
+    description: 'Unlike other consultants who only focus on implementation, we guide you through the entire journey—from identifying the perfect grants for your specific needs to developing winning proposals and ensuring successful project delivery.',
     imageUrl: 'https://picsum.photos/seed/govsolution1/600/400',
     title: 'Data Analytics for Smart Cities',
     description: 'Data analytics is transforming cities by turning raw information into actionable insights. It\'s crucial for optimizing urban life, from easing traffic to improving public health and maintaining vital infrastructure.',
