@@ -8,7 +8,7 @@ import { UsersIcon, LightBulbIcon, ShieldCheckIcon } from '../components/icons/F
 
 const AboutSection: React.FC<SectionProps> = ({ id }) => {
   return (
-    <SectionContainer id={id} className="section-on-light-bg" hasPattern>
+    <SectionContainer id={id} className="bg-neutral-very-light" hasPattern>
       <SectionTitle title="About LuminaCity" subtitle="Our Mission & Vision" className="section-title-heading" />
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
@@ -19,10 +19,10 @@ const AboutSection: React.FC<SectionProps> = ({ id }) => {
           />
         </div>
         <div className="space-y-6">
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed text-neutral-dark">
             At LuminaCity, we are passionate about harnessing the power of cutting-edge technology to address the unique challenges faced by local governments. Our team of experts in data science, artificial intelligence, and public administration collaborates closely with municipalities to develop tailored solutions that drive meaningful impact.
           </p>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed text-neutral-dark">
             We believe in a future where public services are more efficient, data-driven, and citizen-centric. Our commitment is to provide innovative tools and strategies that empower local authorities to better serve their communities.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">

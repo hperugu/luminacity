@@ -18,8 +18,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, subtitle, className,
   return (
     <div className={`mb-12 md:mb-16 flex flex-col ${alignmentClass[align]} ${className || ''}`}>
       {subtitle && <p className="text-base font-semibold text-primary-light uppercase tracking-wider mb-2">{subtitle}</p>}
-      {/* The h2 color will be inherited from the parent section container (either default body color or .section-on-light-bg color) */}
-      <h2 className="text-3xl md:text-4xl font-bold"> 
+      <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark"> 
         {title}
       </h2>
       {/* Underline uses secondary color (yellow) */}
