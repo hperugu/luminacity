@@ -52,9 +52,9 @@ export const SOLUTION_ITEMS: SolutionItem[] = [
   },
   {
     imageUrl: 'https://picsum.photos/seed/govsolution3/600/400',
-    title: 'Citizen Service Optimization',
-    description: 'GenLLM-powered chatbots and automated systems for 24/7 citizen support and streamlined service access.',
-    tags: ['Citizen Engagement', 'Automation', 'GenLLM'],
+    title: 'GenLLM-Powered Public Services',
+    description: 'Generative Large Language Models (GenLLMs) are revolutionizing how citizens interact with public services. By powering advanced chatbots, GenLLMs can transform public works, making information more accessible and service delivery more efficient. These AI-driven tools can understand natural language, provide instant answers, and even help citizens submit requests, drastically improving responsiveness and satisfaction.',
+    tags: ['Natural Language Processing', 'Citizen Engagement', 'Service Automation', 'Real-time Support'],
   },
 ];
 

@@ -107,6 +107,69 @@ const SolutionsSection: React.FC<SectionProps> = ({ id }) => {
             In essence, data analytics is the fundamental capability that transforms isolated data points into urban intelligence. It empowers city leaders to build more efficient, sustainable, resilient, and livable cities for future generations.
           </p>
         </div>
+      ) : selectedSolution?.title === 'GenLLM-Powered Public Services' ? (
+        <div className="prose prose-lg max-w-none">
+          <h3 className="text-xl font-semibold text-neutral-dark mb-4">
+            GenLLMs: Transforming Citizen-Government Interactions
+          </h3>
+          <p className="text-neutral-dark mb-6 leading-relaxed">
+            Generative Large Language Models (GenLLMs) are transforming how citizens interact with public services. By powering advanced chatbots, GenLLMs can revolutionize public works service delivery, making information more accessible, processes more efficient, and citizen engagement more effective. These AI-driven tools can understand natural language, provide instant and personalized answers, and even help citizens submit and track requests, drastically improving responsiveness and overall satisfaction.
+          </p>
+          
+          <h4 className="text-lg font-semibold text-neutral-dark mb-3">
+            1. Waste Management Services:
+          </h4>
+          <p className="text-neutral-dark mb-4 leading-relaxed">
+            GenLLM-powered chatbots can serve as a comprehensive, always-on resource for waste management inquiries.
+          </p>
+          <ul className="text-neutral-dark mb-6 leading-relaxed list-disc pl-6 space-y-2">
+            <li><strong>Understanding Complex Queries:</strong> Citizens can ask questions in plain language, like "What day is my recycling picked up?", "Can I recycle old batteries?", or "My trash wasn't picked up, what do I do?". The chatbot, powered by a GenLLM, can accurately interpret these diverse queries.</li>
+            <li><strong>Providing Specific Information:</strong> The chatbot can instantly provide detailed schedules based on location, offer guidelines on what is recyclable, hazardous waste disposal instructions, and even explain local regulations without requiring citizens to navigate complex websites or wait on hold.</li>
+            <li><strong>Handling Service Requests:</strong> If a trash pickup is missed, the chatbot can guide the citizen through submitting a service request, collecting necessary details like address, date, and description of the issue. It can then integrate with internal city systems to log the complaint and provide a reference number.</li>
+          </ul>
+          
+          <h4 className="text-lg font-semibold text-neutral-dark mb-3">
+            2. When Can Citizens Have Their Requests Addressed:
+          </h4>
+          <p className="text-neutral-dark mb-4 leading-relaxed">
+            One of the most common frustrations for citizens is not knowing the status or expected resolution time for their submitted requests. GenLLM chatbots can provide unprecedented transparency and real-time updates.
+          </p>
+          <ul className="text-neutral-dark mb-6 leading-relaxed list-disc pl-6 space-y-2">
+            <li><strong>Real-time Status Updates:</strong> After a citizen submits a request (e.g., for pothole repair, streetlight outage, missed trash pickup), they can simply ask the chatbot, "What's the status of my pothole request?" or "When will the tree near my house be trimmed?". The chatbot can then query the city's work order or customer relationship management (CRM) systems and provide an immediate update, including current status and estimated completion date.</li>
+            <li><strong>Managing Expectations:</strong> Based on historical data and current workload, the GenLLM can even provide estimated wait times or next steps, helping to manage citizen expectations effectively and reduce follow-up calls to overloaded call centers.</li>
+            <li><strong>Automated Notifications:</strong> Chatbots can be configured to proactively notify citizens via text or email when their request status changes, further reducing the need for manual inquiries.</li>
+          </ul>
+          
+          <h4 className="text-lg font-semibold text-neutral-dark mb-3">
+            3. Broader Public Works Service Delivery:
+          </h4>
+          <p className="text-neutral-dark mb-4 leading-relaxed">
+            The application of GenLLMs extends to nearly every aspect of public works:
+          </p>
+          <ul className="text-neutral-dark mb-6 leading-relaxed list-disc pl-6 space-y-2">
+            <li><strong>Roads and Infrastructure:</strong> Citizens can report issues like potholes, damaged signs, or sidewalk cracks by describing them naturally. The chatbot can then log these, ask clarifying questions, and provide updates.</li>
+            <li><strong>Water and Sewer Services:</strong> For issues like water main breaks, low water pressure, or sewer backups, the chatbot can provide immediate guidance, answer FAQs, and escalate critical reports to emergency services.</li>
+            <li><strong>Parks and Recreation:</strong> Inquiries about park hours, facility bookings, maintenance issues (e.g., broken playground equipment), or event schedules can be handled instantly by the chatbot.</li>
+            <li><strong>Permitting and Licensing:</strong> While complex, chatbots can guide citizens through common permitting requirements, answer questions about necessary documents, and direct them to the correct application portals, streamlining initial interactions.</li>
+          </ul>
+          
+          <h4 className="text-lg font-semibold text-neutral-dark mb-3">
+            Implementation Considerations:
+          </h4>
+          <p className="text-neutral-dark mb-4 leading-relaxed">
+            While the benefits are clear, successful implementation of GenLLM-powered chatbots requires:
+          </p>
+          <ul className="text-neutral-dark mb-6 leading-relaxed list-disc pl-6 space-y-2">
+            <li><strong>Robust Data Integration:</strong> The chatbot needs seamless access to various city databases (e.g., waste schedules, work order systems, GIS data) to provide accurate, real-time information.</li>
+            <li><strong>Training and Fine-tuning:</strong> While GenLLMs are powerful, they need to be fine-tuned with specific public works knowledge and common citizen query patterns to ensure highly relevant and accurate responses.</li>
+            <li><strong>Security and Privacy:</strong> Ensuring the secure handling of citizen data and maintaining privacy is paramount.</li>
+            <li><strong>Human Escalation:</strong> Chatbots should always have a clear escalation path to a human agent for complex, sensitive, or unresolved issues.</li>
+          </ul>
+          
+          <p className="text-neutral-dark font-medium leading-relaxed">
+            By leveraging GenLLMs, public works departments can create a more accessible, responsive, and citizen-centric service delivery model, ultimately building stronger, more efficient smart cities.
+          </p>
+        </div>
       ) : selectedSolution?.title === 'AI-Powered Public Safety' ? (
         <div className="prose prose-lg max-w-none">
           <h3 className="text-xl font-semibold text-neutral-dark mb-4">
