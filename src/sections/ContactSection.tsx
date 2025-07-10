@@ -29,8 +29,12 @@ const ContactSection: React.FC<SectionProps> = ({ id }) => {
   };
 
   return (
-    <SectionContainer id={id} className="section-on-light-bg" hasPattern>
-      <SectionTitle title="Get In Touch" subtitle="Contact Us" className="section-title-heading"/>
+    <SectionContainer id={id} className="bg-neutral-very-light" hasPattern>
+      <SectionTitle 
+        title="Get In Touch" 
+        subtitle="Contact Us" 
+        className="text-neutral-dark"
+      />
       <div className="grid md:grid-cols-2 gap-16">
         <div className="bg-white p-8 rounded-xl shadow-xl"> {/* Form card remains white */}
           <h3 className="text-2xl font-semibold text-neutral-dark mb-6">Send us a message</h3>
