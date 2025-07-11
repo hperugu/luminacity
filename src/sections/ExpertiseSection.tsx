@@ -26,7 +26,7 @@ const ExpertiseSection: React.FC<SectionProps> = ({ id }) => {
         subtitle="Empowering Governments with Technology" 
         className="text-white"
       />
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
         {EXPERTISE_ITEMS.map((item) => (
           <ExpertiseCard key={item.title} {...item} />
         ))}

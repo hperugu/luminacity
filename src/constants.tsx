@@ -5,7 +5,7 @@ import { BriefcaseIcon, ChartBarIcon, CpuChipIcon, LightBulbIcon, MegaphoneIcon,
 // Placeholder icons, replace with actual SVG components if FeatureIcons is not created
 const PlaceholderIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6" {...props}>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8 8-3.59 8-8 8 3.59 8 8-8 8z" />
   </svg>
 );
 
@@ -34,6 +34,11 @@ export const EXPERTISE_ITEMS: ServiceItem[] = [
     icon: <LightBulbIcon className="w-10 h-10 text-primary-light" />,
     title: 'Generative LLM Applications',
     description: 'Leverage Large Language Models for innovative solutions in public communication, data summarization, and service delivery.',
+  },
+  {
+    icon: <BriefcaseIcon className="w-10 h-10 text-primary-light" />,
+    title: 'Grant Identification & Strategy',
+    description: 'Navigate federal and state funding opportunities to secure grants for your AI and data analytics initiatives, ensuring projects are financially viable.',
   },
 ];
 
